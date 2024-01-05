@@ -13,9 +13,8 @@ router.route("/register").post(
         {name:"avatar",maxCount:1},{name:"coverImage",maxCount:1}
     ]),
     registerUser)
-    
-router.route("/login").post(loginUser)    
 
+router.route("/login").post(loginUser)
 
 //secure route
 router.route("/logout").post(verifyJWT,logoutUser)
