@@ -95,7 +95,7 @@ const registerUser = asyncHandler(async(req,res)=>{
 })
 
 
-///login user----------------------------------
+///login user----------------------------------\\\
 
 const loginUser = asyncHandler(async(req,res)=>{
     //res body -> data
